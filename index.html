@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <script src="https://kit.fontawesome.com/b7655a4376.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="theme">
+    <div class="container">
+        <div class="photo" onclick="document.querySelector('.photo').classList.toggle('p'),document.querySelector('.theme').classList.toggle('change'),document.querySelector('.container').classList.toggle('changeColor')">
+
+        </div>
+    </div> <br>
+    <div class="container1">
+        <div class="photo1" onclick="document.querySelector('.photo1').classList.toggle('p1'),document.querySelector('.theme').classList.toggle('change1')">
+
+        </div>
+    </div><br>
+    <div class="container2">
+        <div class="photo2" onclick="document.querySelector('.photo2').classList.toggle('p2'),document.querySelector('.theme').classList.toggle('change2')">
+
+        </div>
+    </div>
+    <div class="container3">
+        <img src="ld.png" alt="" width="30" onclick="rotate()" class="image">
+    </div>
+    <script>
+        function rotate() {
+            document.querySelector('.image').classList.toggle('rt');
+            document.querySelector('.theme').classList.toggle('change3');
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+.photo {
+    background-image: url(sun.png);
+    height: 30px;
+    width: 40px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.p {
+    background-image: url(moon.png);
+    height: 30px;
+    width: 40px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    margin-left: 35px;
+}
+
+.container {
+    background-color: yellow;
+    width: 65px;
+    border-radius: 20px;
+}
+
+.changeColor {
+    background-color: black;
+    width: 65px;
+    border-radius: 20px;
+}
+
+.change {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.photo1 {
+    background-image: url(lighttheme.png);
+    height: 30px;
+    width: 40px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.p1 {
+    background-image: url(night-512.png);
+    height: 30px;
+    width: 40px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    margin-left: 35px;
+}
+
+.container1 {
+    width: 65px;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.change1 {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.container2 {
+    height: 20px;
+    width: 60px;
+    background-color: gray;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.photo2 {
+    background-image: url(lighttheme.png);
+    height: 30px;
+    width: 40px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -20%;
+}
+
+.p2 {
+    background-image: url(night-512.png);
+    height: 30px;
+    width: 40px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    margin-left: 35px;
+}
+
+.change2 {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.container3 {
+    height: 20px;
+    width: 60px;
+    background-color: gray;
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+
+img {
+    position: absolute;
+    top: -25%;
+    left: -5%;
+    transition: .5s ease-in-out;
+}
+
+.rt {
+    transform: rotateZ(270deg);
+    transition: .5s ease-in-out;
+    margin-left: 40px;
+}
+
+.change3 {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
